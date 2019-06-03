@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="style.css"?>
+<!DOCTYPE zaklad_bukmacherski SYSTEM "zakladbukmacherski.dtd">
 <zaklad_bukmacherski nazwa_bukmachera="eSTeeS Bukmacher">
     <wlasciciele>
         <wlasciciel>
@@ -139,7 +140,7 @@
                             </typ>
                         </typy>
                     </spotkanie>
-                    <spotkanie id_spotkania="NBW03062019">
+                    <spotkanie id_spotkania="NBB03062019">
                         <gospodarz>Borrusia Dortmund</gospodarz>
                         <gosc>Bayern Leverkusen</gosc>
                         <data_spotkania>2019-06-03</data_spotkania>
@@ -158,7 +159,7 @@
                             </typ>
                         </typy>
                     </spotkanie>
-                    <spotkanie id_spotkania="NBW03062019">
+                    <spotkanie id_spotkania="NWH03062019">
                         <gospodarz>Werder Brema</gospodarz>
                         <gosc>Hannover 96</gosc>
                         <data_spotkania>2019-06-03</data_spotkania>
@@ -501,7 +502,7 @@
                             </typ>
                         </typy>
                     </spotkanie>
-                    <spotkanie id_spotkania="NBW05062019">
+                    <spotkanie id_spotkania="NBB05062019">
                         <gospodarz>Borrusia Dortmund</gospodarz>
                         <gosc>Bayern Leverkusen</gosc>
                         <data_spotkania>2019-06-05</data_spotkania>
@@ -520,7 +521,7 @@
                             </typ>
                         </typy>
                     </spotkanie>
-                    <spotkanie id_spotkania="NBW05062019">
+                    <spotkanie id_spotkania="NWH05062019">
                         <gospodarz>Werder Brema</gospodarz>
                         <gosc>Hannover 96</gosc>
                         <data_spotkania>2019-06-05</data_spotkania>

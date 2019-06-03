@@ -1,0 +1,35 @@
+<!-- ATRYBUTY -->
+<!ATTLIST oferta data_oferty CDATA #REQUIRED>
+<!ATTLIST zaklad_bukmacherski nazwa_bukmachera CDATA #REQUIRED>
+<!ATTLIST spotkanie id_spotkania ID #REQUIRED>
+
+<!-- PRACOWNIk WLACICIEL -->
+<!ENTITY % wlasciciel "imie, nazwisko, data_urodzenia, pesel">
+<!ENTITY % pracownik "imie, nazwisko, data_urodzenia, pesel, numer_dowodu, staz">
+<!ELEMENT pracownik (%pracownik;)>
+<!ELEMENT wlasciciel (%wlasciciel;)>
+<!ELEMENT wlasciciele (wlasciciel*)>
+<!ELEMENT pracownicy (pracownik*)>
+<!ELEMENT imie (#PCDATA)>
+<!ELEMENT nazwisko (#PCDATA)>
+<!ELEMENT data_urodzenia (#PCDATA)>
+<!ELEMENT pesel (#PCDATA)>
+<!ELEMENT numer_dowodu (#PCDATA)>
+<!ELEMENT staz (#PCDATA)>
+
+<!-- OFERTY -->
+<!ELEMENT pilka_nozna (liga_angielska?, liga_niemiecka?, liga_polska?)>
+<!ELEMENT oferta (pilka_nozna)>
+<!ELEMENT oferty (oferta*)>
+<!ELEMENT liga_polska (spotkanie*)>
+<!ELEMENT liga_niemiecka (spotkanie*)>
+<!ELEMENT liga_angielska (spotkanie*)>
+<!ELEMENT spotkanie (gospodarz, gosc, data_spotkania, typy)>
+<!ELEMENT typy (typ*)>
+<!ELEMENT typ (nazwa, kurs)>
+<!ELEMENT gospodarz (#PCDATA)>
+<!ELEMENT gosc (#PCDATA)>
+<!ELEMENT data_spotkania (#PCDATA)>
+<!ELEMENT nazwa (#PCDATA)>
+<!ELEMENT kurs (#PCDATA)>
+<!ELEMENT zaklad_bukmacherski (wlasciciele, pracownicy, oferty)>
