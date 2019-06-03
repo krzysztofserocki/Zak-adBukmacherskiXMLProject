@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<zakladbukmacherski>
+    <wlasciciele>
+        <wlasciciel>
+            <imie>Krzysztof</imie>
+            <nazwisko>Serocki</nazwisko>
+            <data_urodzenia>24.02.1998</data_urodzenia>
+            <pesel>98022412341</pesel>
+        </wlasciciel>
+        <wlasciciel>
+            <imie>Paweł</imie>
+            <nazwisko>Pan</nazwisko>
+            <data_urodzenia>26.02.1998</data_urodzenia>
+            <pesel>98022611233</pesel>
+        </wlasciciel>
+    </wlasciciele>
+    <pracownicy>
+        <pracownik>
+            <imie>Sebastian</imie>
+            <nazwisko>Dworski</nazwisko>
+            <data_urodzenia>13.06.1989</data_urodzenia>
+            <pesel>89061312341</pesel>
+            <numer_dowodu>CBA123456</numer_dowodu>
+            <staz>31</staz>
+        </pracownik>
+        <pracownik>
+            <imie>Marcin</imie>
+            <nazwisko>Michałek</nazwisko>
+            <data_urodzenia>04.01.1992</data_urodzenia>
+            <pesel>92010451232</pesel>
+            <numer_dowodu>CAA22456</numer_dowodu>
+            <staz>5</staz>
+        </pracownik>
+        <pracownik>
+            <imie>Jan</imie>
+            <nazwisko>Tomeczek</nazwisko>
+            <data_urodzenia>23.12.1981</data_urodzenia>
+            <pesel>81128313212</pesel>
+            <numer_dowodu>UCA612321</numer_dowodu>
+            <staz>62</staz>
+        </pracownik>
+        <pracownik>
+            <imie>Kamil</imie>
+            <nazwisko>Pokornicki</nazwisko>
+            <data_urodzenia>26.02.1998</data_urodzenia>
+            <pesel>98022613341</pesel>
+            <numer_dowodu>CAC163456</numer_dowodu>
+            <staz>15</staz>
+        </pracownik>
+        <pracownik>
+            <imie>Tomasz</imie>
+            <nazwisko>Pawelczuk</nazwisko>
+            <data_urodzenia>26.06.1977</data_urodzenia>
+            <pesel>77062613341</pesel>
+            <numer_dowodu>CAC163456</numer_dowodu>
+            <staz>82</staz>
+        </pracownik>
+    </pracownicy>
+    <oferty>
+        <oferta data="02.06.2019">
+            <pilka_nozna>
+                <liga_angielska>
+                    <spotkanie id="ACT03062019">
+                        <gospodarz>Chelsea</gospodarz>
+                        <gosc>Tottenham</gosc>
+                        <data_spotkania>03.06.2019</data_spotkania>
+                        <typy>
+                            <typ>
+                                <nazwa>Wygra gospodarz</nazwa>
+                                <kurs>1.31</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Wygra gość</nazwa>
+                                <kurs>2.31</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Remis</nazwa>
+                                <kurs>3.01</kurs>
+                            </typ>
+                        </typy>
+                    </spotkanie>
+                    <spotkanie id="AMM03062019">
+                        <gospodarz>Manchester City</gospodarz>
+                        <gosc>Manchester United</gosc>
+                        <data_spotkania>03.06.2019</data_spotkania>
+                        <typy>
+                            <typ>
+                                <nazwa>Wygra gospodarz</nazwa>
+                                <kurs>1.12</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Wygra gość</nazwa>
+                                <kurs>2.91</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Remis</nazwa>
+                                <kurs>3.51</kurs>
+                            </typ>
+                        </typy>
+                    </spotkanie>
+                    <spotkanie id="ALS03062019">
+                        <gospodarz>Liverpool</gospodarz>
+                        <gosc>Southampton</gosc>
+                        <data_spotkania>03.06.2019</data_spotkania>
+                        <typy>
+                            <typ>
+                                <nazwa>Wygra gospodarz</nazwa>
+                                <kurs>1.21</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Wygra gość</nazwa>
+                                <kurs>2.31</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Remis</nazwa>
+                                <kurs>3.12</kurs>
+                            </typ>
+                        </typy>
+                    </spotkanie>
+                </liga_angielska>
+                <liga_niemiecka>
+                    <spotkanie id="NBW030602019">
+                        <gospodarz>Bayern Monachium</gospodarz>
+                        <gosc>Wolfsburg</gosc>
+                        <data_spotkania>03.06.2019</data_spotkania>
+                        <typy>
+                            <typ>
+                                <nazwa>Wygra gospodarz</nazwa>
+                                <kurs>1.21</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Wygra gość</nazwa>
+                                <kurs>2.31</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Remis</nazwa>
+                                <kurs>3.12</kurs>
+                            </typ>
+                        </typy>
+                    </spotkanie>
+                    <spotkanie id="NBW030602019">
+                        <gospodarz>Borrusia Dortmund</gospodarz>
+                        <gosc>Bayern Leverkusen</gosc>
+                        <data_spotkania>03.06.2019</data_spotkania>
+                        <typy>
+                            <typ>
+                                <nazwa>Wygra gospodarz</nazwa>
+                                <kurs>1.91</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Wygra gość</nazwa>
+                                <kurs>1.92</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Remis</nazwa>
+                                <kurs>3.12</kurs>
+                            </typ>
+                        </typy>
+                    </spotkanie>
+                    <spotkanie id="NBW030602019">
+                        <gospodarz>Werder Brema</gospodarz>
+                        <gosc>Hannover 96</gosc>
+                        <data_spotkania>03.06.2019</data_spotkania>
+                        <typy>
+                            <typ>
+                                <nazwa>Wygra gospodarz</nazwa>
+                                <kurs>1.51</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Wygra gość</nazwa>
+                                <kurs>2.22</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Remis</nazwa>
+                                <kurs>3.12</kurs>
+                            </typ>
+                        </typy>
+                    </spotkanie>
+                </liga_niemiecka>
+                <liga_polska>
+
+                </liga_polska>
+            </pilka_nozna>
+        </oferta>
+    </oferty>
+</zakladbukmacherski>
