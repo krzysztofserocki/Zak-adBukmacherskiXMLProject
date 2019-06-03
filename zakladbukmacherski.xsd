@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <!-- ATRYBUTY -->
+
+    <xsd:attribute name="data_oferty">
+        <xsd:simpleType>
+            <xsd:restriction base="xsd:date"/>
+        </xsd:simpleType>
+    </xsd:attribute>
+
+    <xsd:attribute name="nazwa_bukmachera">
+        <xsd:simpleType>
+            <xsd:restriction base="xsd:string"/>
+        </xsd:simpleType>
+    </xsd:attribute>
+
+    <xsd:attribute name="id_spotkania">
+        <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+                <xsd:pattern value="[A-Z]{3}[0-9]{8}"/>
+            </xsd:restriction>
+        </xsd:simpleType>
+    </xsd:attribute>
+
+    <!-- GLOBALNE -->
+
+    <xsd:simpleType name="typ_pesel">
+        <xsd:restriction base="xsd:string">
+            <xsd:maxLength value="11"/>
+            <xsd:minLength value="11"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="typ_nr_dowodu">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="[A-Z]{3}[0-9]{6}"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <!-- PRACOWNICY -->
+
+    <xsd:complexType name="typ_wlasciciel">
+        <xsd:sequence>
+            <xsd:element name="imie" type="xsd:string"/>
+            <xsd:element name="nazwisko" type="xsd:string"/>
+            <xsd:element name="data_urodzenia" type="xsd:date"/>
+            <xsd:element name="pesel" type="typ_pesel"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="typ_pracownik">
+        <xsd:sequence>
+            <xsd:element name="imie" type="xsd:string"/>
+            <xsd:element name="nazwisko" type="xsd:string"/>
+            <xsd:element name="data_urodzenia" type="xsd:date"/>
+            <xsd:element name="pesel" type="typ_pesel"/>
+            <xsd:element name="numer_dowodu" type="typ_nr_dowodu"/>
+            <xsd:element name="staz" type="xsd:positiveInteger"/>
+            </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="typ_pracownicy">
+        <xsd:sequence>
+            <xsd:element name="pracownik" type="typ_pracownik" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="typ_wlasciciele">
+        <xsd:sequence>
+            <xsd:element name="wlasciciel" type="typ_wlasciciel" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <!-- OFERTA -->
+
+    <xsd:complexType name="typ_typ">
+        <xsd:sequence>
+            <xsd:element name="nazwa"/>
+            <xsd:element name="kurs" type="xsd:double"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="typ_typy">
+        <xsd:sequence>
+            <xsd:element name="typ" type="typ_typ" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="typ_spotkania">
+        <xsd:sequence>
+            <xsd:element name="gospodarz" type="xsd:string"/>
+            <xsd:element name="gosc" type="xsd:string"/>
+            <xsd:element name="data_spotkania" type="xsd:date"/>
+            <xsd:element name="typy"/>
+        </xsd:sequence>
+        <xsd:attribute ref="id_spotkania"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="typ_liga_angielska">
+        <xsd:sequence>
+            <xsd:element name="spotkanie" type="typ_spotkania" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="typ_liga_niemiecka">
+        <xsd:sequence>
+            <xsd:element name="spotkanie" type="typ_spotkania" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="typ_liga_polska">
+        <xsd:sequence>
+            <xsd:element name="spotkanie" type="typ_spotkania" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="typ_pilka_nozna">
+        <xsd:sequence>
+            <xsd:element name="liga_angielska" type="typ_liga_angielska"/>
+            <xsd:element name="liga_niemiecka" type="typ_liga_niemiecka"/>
+            <xsd:element name="liga_polska" type="typ_liga_polska"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="typ_oferta">
+        <xsd:sequence>
+            <xsd:element name="pilka_nozna" type="typ_pilka_nozna"/>
+        </xsd:sequence>
+        <xsd:attribute ref="data_oferty"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="typ_oferty">
+        <xsd:sequence>
+            <xsd:element name="oferta" type="typ_oferta" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <!-- GLOWNA -->
+
+    <xsd:complexType name="typ_zaklad_bukmacherski">
+        <xsd:sequence>
+            <xsd:element name="wlasciciele" type="typ_wlasciciele"/>
+            <xsd:element name="pracownicy" type="typ_pracownicy"/>
+            <xsd:element name="oferty" type="typ_oferty"/>
+        </xsd:sequence>
+        <xsd:attribute ref="nazwa_bukmachera"/>
+    </xsd:complexType>
+
+    <xsd:element name="zaklad_bukmacherski" type="typ_zaklad_bukmacherski"/>
+
+</xsd:schema>

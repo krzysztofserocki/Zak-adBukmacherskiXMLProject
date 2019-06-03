@@ -1,16 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<zakladbukmacherski>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<zaklad_bukmacherski nazwa_bukmachera="eSTeeS Bukmacher">
     <wlasciciele>
         <wlasciciel>
             <imie>Krzysztof</imie>
             <nazwisko>Serocki</nazwisko>
-            <data_urodzenia>24.02.1998</data_urodzenia>
+            <data_urodzenia>1998-02-24</data_urodzenia>
             <pesel>98022412341</pesel>
         </wlasciciel>
         <wlasciciel>
             <imie>Paweł</imie>
             <nazwisko>Pan</nazwisko>
-            <data_urodzenia>26.02.1998</data_urodzenia>
+            <data_urodzenia>1998-02-26</data_urodzenia>
             <pesel>98022611233</pesel>
         </wlasciciel>
     </wlasciciele>
@@ -18,7 +19,7 @@
         <pracownik>
             <imie>Sebastian</imie>
             <nazwisko>Dworski</nazwisko>
-            <data_urodzenia>13.06.1989</data_urodzenia>
+            <data_urodzenia>1989-06-13</data_urodzenia>
             <pesel>89061312341</pesel>
             <numer_dowodu>CBA123456</numer_dowodu>
             <staz>31</staz>
@@ -26,15 +27,15 @@
         <pracownik>
             <imie>Marcin</imie>
             <nazwisko>Michałek</nazwisko>
-            <data_urodzenia>04.01.1992</data_urodzenia>
+            <data_urodzenia>1992-01-04</data_urodzenia>
             <pesel>92010451232</pesel>
-            <numer_dowodu>CAA22456</numer_dowodu>
+            <numer_dowodu>CAA224156</numer_dowodu>
             <staz>5</staz>
         </pracownik>
         <pracownik>
             <imie>Jan</imie>
             <nazwisko>Tomeczek</nazwisko>
-            <data_urodzenia>23.12.1981</data_urodzenia>
+            <data_urodzenia>1981-12-23</data_urodzenia>
             <pesel>81128313212</pesel>
             <numer_dowodu>UCA612321</numer_dowodu>
             <staz>62</staz>
@@ -42,7 +43,7 @@
         <pracownik>
             <imie>Kamil</imie>
             <nazwisko>Pokornicki</nazwisko>
-            <data_urodzenia>26.02.1998</data_urodzenia>
+            <data_urodzenia>1998-02-26</data_urodzenia>
             <pesel>98022613341</pesel>
             <numer_dowodu>CAC163456</numer_dowodu>
             <staz>15</staz>
@@ -50,20 +51,20 @@
         <pracownik>
             <imie>Tomasz</imie>
             <nazwisko>Pawelczuk</nazwisko>
-            <data_urodzenia>26.06.1977</data_urodzenia>
+            <data_urodzenia>1977-06-26</data_urodzenia>
             <pesel>77062613341</pesel>
             <numer_dowodu>CAC163456</numer_dowodu>
             <staz>82</staz>
         </pracownik>
     </pracownicy>
     <oferty>
-        <oferta data="02.06.2019">
+        <oferta data_oferty="2019-06-02">
             <pilka_nozna>
                 <liga_angielska>
-                    <spotkanie id="ACT03062019">
+                    <spotkanie id_spotkania="ACT03062019">
                         <gospodarz>Chelsea</gospodarz>
                         <gosc>Tottenham</gosc>
-                        <data_spotkania>03.06.2019</data_spotkania>
+                        <data_spotkania>2019-06-03</data_spotkania>
                         <typy>
                             <typ>
                                 <nazwa>Wygra gospodarz</nazwa>
@@ -79,10 +80,10 @@
                             </typ>
                         </typy>
                     </spotkanie>
-                    <spotkanie id="AMM03062019">
+                    <spotkanie id_spotkania="AMM03062019">
                         <gospodarz>Manchester City</gospodarz>
                         <gosc>Manchester United</gosc>
-                        <data_spotkania>03.06.2019</data_spotkania>
+                        <data_spotkania>2019-06-03</data_spotkania>
                         <typy>
                             <typ>
                                 <nazwa>Wygra gospodarz</nazwa>
@@ -98,10 +99,10 @@
                             </typ>
                         </typy>
                     </spotkanie>
-                    <spotkanie id="ALS03062019">
+                    <spotkanie id_spotkania="ALS03062019">
                         <gospodarz>Liverpool</gospodarz>
                         <gosc>Southampton</gosc>
-                        <data_spotkania>03.06.2019</data_spotkania>
+                        <data_spotkania>2019-06-03</data_spotkania>
                         <typy>
                             <typ>
                                 <nazwa>Wygra gospodarz</nazwa>
@@ -119,10 +120,10 @@
                     </spotkanie>
                 </liga_angielska>
                 <liga_niemiecka>
-                    <spotkanie id="NBW030602019">
+                    <spotkanie id_spotkania="NBW03062019">
                         <gospodarz>Bayern Monachium</gospodarz>
                         <gosc>Wolfsburg</gosc>
-                        <data_spotkania>03.06.2019</data_spotkania>
+                        <data_spotkania>2019-06-03</data_spotkania>
                         <typy>
                             <typ>
                                 <nazwa>Wygra gospodarz</nazwa>
@@ -138,10 +139,10 @@
                             </typ>
                         </typy>
                     </spotkanie>
-                    <spotkanie id="NBW030602019">
+                    <spotkanie id_spotkania="NBW03062019">
                         <gospodarz>Borrusia Dortmund</gospodarz>
                         <gosc>Bayern Leverkusen</gosc>
-                        <data_spotkania>03.06.2019</data_spotkania>
+                        <data_spotkania>2019-06-03</data_spotkania>
                         <typy>
                             <typ>
                                 <nazwa>Wygra gospodarz</nazwa>
@@ -157,10 +158,10 @@
                             </typ>
                         </typy>
                     </spotkanie>
-                    <spotkanie id="NBW030602019">
+                    <spotkanie id_spotkania="NBW03062019">
                         <gospodarz>Werder Brema</gospodarz>
                         <gosc>Hannover 96</gosc>
-                        <data_spotkania>03.06.2019</data_spotkania>
+                        <data_spotkania>2019-06-03</data_spotkania>
                         <typy>
                             <typ>
                                 <nazwa>Wygra gospodarz</nazwa>
@@ -178,9 +179,427 @@
                     </spotkanie>
                 </liga_niemiecka>
                 <liga_polska>
-
+                    <spotkanie id_spotkania="PWW03062019">
+                        <gospodarz>Wisla Krakow</gospodarz>
+                        <gosc>Widzew Lodz</gosc>
+                        <data_spotkania>2019-06-03</data_spotkania>
+                        <typy>
+                            <typ>
+                                <nazwa>Wygra gospodarz</nazwa>
+                                <kurs>1.51</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Wygra gość</nazwa>
+                                <kurs>2.22</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Remis</nazwa>
+                                <kurs>3.12</kurs>
+                            </typ>
+                        </typy>
+                    </spotkanie>
+                    <spotkanie id_spotkania="PLL03062019">
+                        <gospodarz>Lech Poznan</gospodarz>
+                        <gosc>Legia Warszawa</gosc>
+                        <data_spotkania>2019-06-03</data_spotkania>
+                        <typy>
+                            <typ>
+                                <nazwa>Wygra gospodarz</nazwa>
+                                <kurs>1.51</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Wygra gość</nazwa>
+                                <kurs>2.22</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Remis</nazwa>
+                                <kurs>3.12</kurs>
+                            </typ>
+                        </typy>
+                    </spotkanie>
+                    <spotkanie id_spotkania="PLA03062019">
+                        <gospodarz>Lechia Gdańsk</gospodarz>
+                        <gosc>Arka Gdynia</gosc>
+                        <data_spotkania>2019-06-03</data_spotkania>
+                        <typy>
+                            <typ>
+                                <nazwa>Wygra gospodarz</nazwa>
+                                <kurs>1.51</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Wygra gość</nazwa>
+                                <kurs>2.22</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Remis</nazwa>
+                                <kurs>3.12</kurs>
+                            </typ>
+                        </typy>
+                    </spotkanie>
+                </liga_polska>
+            </pilka_nozna>
+        </oferta>
+        <oferta data_oferty="2019-06-03">
+            <pilka_nozna>
+                <liga_angielska>
+                    <spotkanie id_spotkania="ACT04062019">
+                        <gospodarz>Chelsea</gospodarz>
+                        <gosc>Tottenham</gosc>
+                        <data_spotkania>2019-06-04</data_spotkania>
+                        <typy>
+                            <typ>
+                                <nazwa>Wygra gospodarz</nazwa>
+                                <kurs>1.31</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Wygra gość</nazwa>
+                                <kurs>2.31</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Remis</nazwa>
+                                <kurs>3.01</kurs>
+                            </typ>
+                        </typy>
+                    </spotkanie>
+                    <spotkanie id_spotkania="AMM04062019">
+                        <gospodarz>Manchester City</gospodarz>
+                        <gosc>Manchester United</gosc>
+                        <data_spotkania>2019-06-04</data_spotkania>
+                        <typy>
+                            <typ>
+                                <nazwa>Wygra gospodarz</nazwa>
+                                <kurs>1.12</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Wygra gość</nazwa>
+                                <kurs>2.91</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Remis</nazwa>
+                                <kurs>3.51</kurs>
+                            </typ>
+                        </typy>
+                    </spotkanie>
+                    <spotkanie id_spotkania="ALS04062019">
+                        <gospodarz>Liverpool</gospodarz>
+                        <gosc>Southampton</gosc>
+                        <data_spotkania>2019-06-04</data_spotkania>
+                        <typy>
+                            <typ>
+                                <nazwa>Wygra gospodarz</nazwa>
+                                <kurs>1.21</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Wygra gość</nazwa>
+                                <kurs>2.31</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Remis</nazwa>
+                                <kurs>3.12</kurs>
+                            </typ>
+                        </typy>
+                    </spotkanie>
+                </liga_angielska>
+                <liga_niemiecka>
+                    <spotkanie id_spotkania="NBW04062019">
+                        <gospodarz>Bayern Monachium</gospodarz>
+                        <gosc>Wolfsburg</gosc>
+                        <data_spotkania>2019-06-04</data_spotkania>
+                        <typy>
+                            <typ>
+                                <nazwa>Wygra gospodarz</nazwa>
+                                <kurs>1.21</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Wygra gość</nazwa>
+                                <kurs>2.31</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Remis</nazwa>
+                                <kurs>3.12</kurs>
+                            </typ>
+                        </typy>
+                    </spotkanie>
+                    <spotkanie id_spotkania="NBB04062019">
+                        <gospodarz>Borrusia Dortmund</gospodarz>
+                        <gosc>Bayern Leverkusen</gosc>
+                        <data_spotkania>2019-06-04</data_spotkania>
+                        <typy>
+                            <typ>
+                                <nazwa>Wygra gospodarz</nazwa>
+                                <kurs>1.91</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Wygra gość</nazwa>
+                                <kurs>1.92</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Remis</nazwa>
+                                <kurs>3.12</kurs>
+                            </typ>
+                        </typy>
+                    </spotkanie>
+                    <spotkanie id_spotkania="NWH04062019">
+                        <gospodarz>Werder Brema</gospodarz>
+                        <gosc>Hannover 96</gosc>
+                        <data_spotkania>2019-06-04</data_spotkania>
+                        <typy>
+                            <typ>
+                                <nazwa>Wygra gospodarz</nazwa>
+                                <kurs>1.51</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Wygra gość</nazwa>
+                                <kurs>2.22</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Remis</nazwa>
+                                <kurs>3.12</kurs>
+                            </typ>
+                        </typy>
+                    </spotkanie>
+                </liga_niemiecka>
+                <liga_polska>
+                    <spotkanie id_spotkania="PWW04062019">
+                        <gospodarz>Wisla Krakow</gospodarz>
+                        <gosc>Widzew Lodz</gosc>
+                        <data_spotkania>2019-06-04</data_spotkania>
+                        <typy>
+                            <typ>
+                                <nazwa>Wygra gospodarz</nazwa>
+                                <kurs>1.51</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Wygra gość</nazwa>
+                                <kurs>2.22</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Remis</nazwa>
+                                <kurs>3.12</kurs>
+                            </typ>
+                        </typy>
+                    </spotkanie>
+                    <spotkanie id_spotkania="PLL04062019">
+                        <gospodarz>Lech Poznan</gospodarz>
+                        <gosc>Legia Warszawa</gosc>
+                        <data_spotkania>2019-06-04</data_spotkania>
+                        <typy>
+                            <typ>
+                                <nazwa>Wygra gospodarz</nazwa>
+                                <kurs>1.51</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Wygra gość</nazwa>
+                                <kurs>2.22</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Remis</nazwa>
+                                <kurs>3.12</kurs>
+                            </typ>
+                        </typy>
+                    </spotkanie>
+                    <spotkanie id_spotkania="PLA04062019">
+                        <gospodarz>Lechia Gdańsk</gospodarz>
+                        <gosc>Arka Gdynia</gosc>
+                        <data_spotkania>2019-06-04</data_spotkania>
+                        <typy>
+                            <typ>
+                                <nazwa>Wygra gospodarz</nazwa>
+                                <kurs>1.51</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Wygra gość</nazwa>
+                                <kurs>2.22</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Remis</nazwa>
+                                <kurs>3.12</kurs>
+                            </typ>
+                        </typy>
+                    </spotkanie>
+                </liga_polska>
+            </pilka_nozna>
+        </oferta>
+        <oferta data_oferty="2019-06-04">
+            <pilka_nozna>
+                <liga_angielska>
+                    <spotkanie id_spotkania="ACT05062019">
+                        <gospodarz>Chelsea</gospodarz>
+                        <gosc>Tottenham</gosc>
+                        <data_spotkania>2019-06-05</data_spotkania>
+                        <typy>
+                            <typ>
+                                <nazwa>Wygra gospodarz</nazwa>
+                                <kurs>1.31</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Wygra gość</nazwa>
+                                <kurs>2.31</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Remis</nazwa>
+                                <kurs>3.01</kurs>
+                            </typ>
+                        </typy>
+                    </spotkanie>
+                    <spotkanie id_spotkania="AMM05062019">
+                        <gospodarz>Manchester City</gospodarz>
+                        <gosc>Manchester United</gosc>
+                        <data_spotkania>2019-06-05</data_spotkania>
+                        <typy>
+                            <typ>
+                                <nazwa>Wygra gospodarz</nazwa>
+                                <kurs>1.12</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Wygra gość</nazwa>
+                                <kurs>2.91</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Remis</nazwa>
+                                <kurs>3.51</kurs>
+                            </typ>
+                        </typy>
+                    </spotkanie>
+                    <spotkanie id_spotkania="ALS05062019">
+                        <gospodarz>Liverpool</gospodarz>
+                        <gosc>Southampton</gosc>
+                        <data_spotkania>2019-06-05</data_spotkania>
+                        <typy>
+                            <typ>
+                                <nazwa>Wygra gospodarz</nazwa>
+                                <kurs>1.21</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Wygra gość</nazwa>
+                                <kurs>2.31</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Remis</nazwa>
+                                <kurs>3.12</kurs>
+                            </typ>
+                        </typy>
+                    </spotkanie>
+                </liga_angielska>
+                <liga_niemiecka>
+                    <spotkanie id_spotkania="NBW05062019">
+                        <gospodarz>Bayern Monachium</gospodarz>
+                        <gosc>Wolfsburg</gosc>
+                        <data_spotkania>2019-06-05</data_spotkania>
+                        <typy>
+                            <typ>
+                                <nazwa>Wygra gospodarz</nazwa>
+                                <kurs>1.21</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Wygra gość</nazwa>
+                                <kurs>2.31</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Remis</nazwa>
+                                <kurs>3.12</kurs>
+                            </typ>
+                        </typy>
+                    </spotkanie>
+                    <spotkanie id_spotkania="NBW05062019">
+                        <gospodarz>Borrusia Dortmund</gospodarz>
+                        <gosc>Bayern Leverkusen</gosc>
+                        <data_spotkania>2019-06-05</data_spotkania>
+                        <typy>
+                            <typ>
+                                <nazwa>Wygra gospodarz</nazwa>
+                                <kurs>1.91</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Wygra gość</nazwa>
+                                <kurs>1.92</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Remis</nazwa>
+                                <kurs>3.12</kurs>
+                            </typ>
+                        </typy>
+                    </spotkanie>
+                    <spotkanie id_spotkania="NBW05062019">
+                        <gospodarz>Werder Brema</gospodarz>
+                        <gosc>Hannover 96</gosc>
+                        <data_spotkania>2019-06-05</data_spotkania>
+                        <typy>
+                            <typ>
+                                <nazwa>Wygra gospodarz</nazwa>
+                                <kurs>1.51</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Wygra gość</nazwa>
+                                <kurs>2.22</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Remis</nazwa>
+                                <kurs>3.12</kurs>
+                            </typ>
+                        </typy>
+                    </spotkanie>
+                </liga_niemiecka>
+                <liga_polska>
+                    <spotkanie id_spotkania="PWW05062019">
+                        <gospodarz>Wisla Krakow</gospodarz>
+                        <gosc>Widzew Lodz</gosc>
+                        <data_spotkania>2019-06-05</data_spotkania>
+                        <typy>
+                            <typ>
+                                <nazwa>Wygra gospodarz</nazwa>
+                                <kurs>1.51</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Wygra gość</nazwa>
+                                <kurs>2.22</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Remis</nazwa>
+                                <kurs>3.12</kurs>
+                            </typ>
+                        </typy>
+                    </spotkanie>
+                    <spotkanie id_spotkania="PLL05062019">
+                        <gospodarz>Lech Poznan</gospodarz>
+                        <gosc>Legia Warszawa</gosc>
+                        <data_spotkania>2019-06-05</data_spotkania>
+                        <typy>
+                            <typ>
+                                <nazwa>Wygra gospodarz</nazwa>
+                                <kurs>1.51</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Wygra gość</nazwa>
+                                <kurs>2.22</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Remis</nazwa>
+                                <kurs>3.12</kurs>
+                            </typ>
+                        </typy>
+                    </spotkanie>
+                    <spotkanie id_spotkania="PLA05062019">
+                        <gospodarz>Lechia Gdańsk</gospodarz>
+                        <gosc>Arka Gdynia</gosc>
+                        <data_spotkania>2019-06-05</data_spotkania>
+                        <typy>
+                            <typ>
+                                <nazwa>Wygra gospodarz</nazwa>
+                                <kurs>1.51</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Wygra gość</nazwa>
+                                <kurs>2.22</kurs>
+                            </typ>
+                            <typ>
+                                <nazwa>Remis</nazwa>
+                                <kurs>3.12</kurs>
+                            </typ>
+                        </typy>
+                    </spotkanie>
                 </liga_polska>
             </pilka_nozna>
         </oferta>
     </oferty>
-</zakladbukmacherski>
+</zaklad_bukmacherski>
