@@ -2,7 +2,6 @@
 <!ATTLIST oferta data_oferty CDATA #REQUIRED>
 <!ATTLIST zaklad_bukmacherski nazwa_bukmachera CDATA #REQUIRED>
 <!ATTLIST spotkanie id_spotkania ID #REQUIRED>
-<!ATTLIST typ id ID #REQUIRED>
 
 <!-- PRACOWNIk WLACICIEL -->
 <!ENTITY % wlasciciel "imie, nazwisko, data_urodzenia, pesel">

@@ -12,8 +12,8 @@
         <wlasciciel>
             <imie>Paweł</imie>
             <nazwisko>Pan</nazwisko>
-            <data_urodzenia>1998-02-26</data_urodzenia>
-            <pesel>98022611233</pesel>
+            <data_urodzenia>1978-02-26</data_urodzenia>
+            <pesel>78022611233</pesel>
         </wlasciciel>
     </wlasciciele>
     <pracownicy>
@@ -67,15 +67,15 @@
                         <gosc>Tottenham</gosc>
                         <data_spotkania>2019-06-03</data_spotkania>
                         <typy>
-                            <typ id="1">
+                            <typ>
                                 <nazwa>Wygra gospodarz</nazwa>
                                 <kurs>1.31</kurs>
                             </typ>
-                            <typ id="2">
+                            <typ>
                                 <nazwa>Wygra gość</nazwa>
                                 <kurs>2.31</kurs>
                             </typ>
-                            <typ id="3">
+                            <typ>
                                 <nazwa>Remis</nazwa>
                                 <kurs>3.01</kurs>
                             </typ>
@@ -86,15 +86,15 @@
                         <gosc>Manchester United</gosc>
                         <data_spotkania>2019-06-03</data_spotkania>
                         <typy>
-                            <typ id="4">
+                            <typ>
                                 <nazwa>Wygra gospodarz</nazwa>
                                 <kurs>1.12</kurs>
                             </typ>
-                            <typ id="5">
+                            <typ>
                                 <nazwa>Wygra gość</nazwa>
                                 <kurs>2.91</kurs>
                             </typ>
-                            <typ id="6">
+                            <typ>
                                 <nazwa>Remis</nazwa>
                                 <kurs>3.51</kurs>
                             </typ>
@@ -105,15 +105,15 @@
                         <gosc>Southampton</gosc>
                         <data_spotkania>2019-06-03</data_spotkania>
                         <typy>
-                            <typ id="7">
+                            <typ>
                                 <nazwa>Wygra gospodarz</nazwa>
                                 <kurs>1.21</kurs>
                             </typ>
-                            <typ id="8">
+                            <typ>
                                 <nazwa>Wygra gość</nazwa>
                                 <kurs>2.31</kurs>
                             </typ>
-                            <typ id="9">
+                            <typ>
                                 <nazwa>Remis</nazwa>
                                 <kurs>3.12</kurs>
                             </typ>
@@ -126,15 +126,15 @@
                         <gosc>Wolfsburg</gosc>
                         <data_spotkania>2019-06-03</data_spotkania>
                         <typy>
-                            <typ id="10">
+                            <typ>
                                 <nazwa>Wygra gospodarz</nazwa>
                                 <kurs>1.21</kurs>
                             </typ>
-                            <typ id="11">
+                            <typ>
                                 <nazwa>Wygra gość</nazwa>
                                 <kurs>2.31</kurs>
                             </typ>
-                            <typ id="12">
+                            <typ>
                                 <nazwa>Remis</nazwa>
                                 <kurs>3.12</kurs>
                             </typ>
@@ -145,15 +145,15 @@
                         <gosc>Bayern Leverkusen</gosc>
                         <data_spotkania>2019-06-03</data_spotkania>
                         <typy>
-                            <typ id="13">
+                            <typ>
                                 <nazwa>Wygra gospodarz</nazwa>
                                 <kurs>1.91</kurs>
                             </typ>
-                            <typ id="14">
+                            <typ>
                                 <nazwa>Wygra gość</nazwa>
                                 <kurs>1.92</kurs>
                             </typ>
-                            <typ id="15">
+                            <typ>
                                 <nazwa>Remis</nazwa>
                                 <kurs>3.12</kurs>
                             </typ>
@@ -164,15 +164,15 @@
                         <gosc>Hannover 96</gosc>
                         <data_spotkania>2019-06-03</data_spotkania>
                         <typy>
-                            <typ id="16">
+                            <typ>
                                 <nazwa>Wygra gospodarz</nazwa>
                                 <kurs>1.51</kurs>
                             </typ>
-                            <typ id="17">
+                            <typ>
                                 <nazwa>Wygra gość</nazwa>
                                 <kurs>2.22</kurs>
                             </typ>
-                            <typ id="18">
+                            <typ>
                                 <nazwa>Remis</nazwa>
                                 <kurs>3.12</kurs>
                             </typ>
@@ -185,15 +185,15 @@
                         <gosc>Widzew Lodz</gosc>
                         <data_spotkania>2019-06-03</data_spotkania>
                         <typy>
-                            <typ id="19">
+                            <typ>
                                 <nazwa>Wygra gospodarz</nazwa>
                                 <kurs>1.51</kurs>
                             </typ>
-                            <typ id="20">
+                            <typ>
                                 <nazwa>Wygra gość</nazwa>
                                 <kurs>2.22</kurs>
                             </typ>
-                            <typ id="21">
+                            <typ>
                                 <nazwa>Remis</nazwa>
                                 <kurs>3.12</kurs>
                             </typ>
@@ -204,15 +204,15 @@
                         <gosc>Legia Warszawa</gosc>
                         <data_spotkania>2019-06-03</data_spotkania>
                         <typy>
-                            <typ id="22">
+                            <typ>
                                 <nazwa>Wygra gospodarz</nazwa>
                                 <kurs>1.51</kurs>
                             </typ>
-                            <typ id="23">
+                            <typ>
                                 <nazwa>Wygra gość</nazwa>
                                 <kurs>2.22</kurs>
                             </typ>
-                            <typ id="24">
+                            <typ>
                                 <nazwa>Remis</nazwa>
                                 <kurs>3.12</kurs>
                             </typ>
@@ -223,15 +223,15 @@
                         <gosc>Arka Gdynia</gosc>
                         <data_spotkania>2019-06-03</data_spotkania>
                         <typy>
-                            <typ id="25">
+                            <typ>
                                 <nazwa>Wygra gospodarz</nazwa>
                                 <kurs>1.51</kurs>
                             </typ>
-                            <typ id="26">
+                            <typ>
                                 <nazwa>Wygra gość</nazwa>
                                 <kurs>2.22</kurs>
                             </typ>
-                            <typ id="27">
+                            <typ>
                                 <nazwa>Remis</nazwa>
                                 <kurs>3.12</kurs>
                             </typ>
@@ -429,15 +429,15 @@
                         <gosc>Tottenham</gosc>
                         <data_spotkania>2019-06-05</data_spotkania>
                         <typy>
-                            <typ id="28">
+                            <typ>
                                 <nazwa>Wygra gospodarz</nazwa>
                                 <kurs>1.31</kurs>
                             </typ>
-                            <typ id="29">
+                            <typ>
                                 <nazwa>Wygra gość</nazwa>
                                 <kurs>2.31</kurs>
                             </typ>
-                            <typ id="30">
+                            <typ>
                                 <nazwa>Remis</nazwa>
                                 <kurs>3.01</kurs>
                             </typ>
@@ -448,15 +448,15 @@
                         <gosc>Manchester United</gosc>
                         <data_spotkania>2019-06-05</data_spotkania>
                         <typy>
-                            <typ id="31">
+                            <typ>
                                 <nazwa>Wygra gospodarz</nazwa>
                                 <kurs>1.12</kurs>
                             </typ>
-                            <typ id="32">
+                            <typ>
                                 <nazwa>Wygra gość</nazwa>
                                 <kurs>2.91</kurs>
                             </typ>
-                            <typ id="33">
+                            <typ>
                                 <nazwa>Remis</nazwa>
                                 <kurs>3.51</kurs>
                             </typ>
@@ -467,15 +467,15 @@
                         <gosc>Southampton</gosc>
                         <data_spotkania>2019-06-05</data_spotkania>
                         <typy>
-                            <typ id="34">
+                            <typ>
                                 <nazwa>Wygra gospodarz</nazwa>
                                 <kurs>1.21</kurs>
                             </typ>
-                            <typ id="35">
+                            <typ>
                                 <nazwa>Wygra gość</nazwa>
                                 <kurs>2.31</kurs>
                             </typ>
-                            <typ id="36">
+                            <typ>
                                 <nazwa>Remis</nazwa>
                                 <kurs>3.12</kurs>
                             </typ>
@@ -488,15 +488,15 @@
                         <gosc>Wolfsburg</gosc>
                         <data_spotkania>2019-06-05</data_spotkania>
                         <typy>
-                            <typ id="37">
+                            <typ>
                                 <nazwa>Wygra gospodarz</nazwa>
                                 <kurs>1.21</kurs>
                             </typ>
-                            <typ id="38">
+                            <typ>
                                 <nazwa>Wygra gość</nazwa>
                                 <kurs>2.31</kurs>
                             </typ>
-                            <typ id="39">
+                            <typ>
                                 <nazwa>Remis</nazwa>
                                 <kurs>3.12</kurs>
                             </typ>
@@ -507,15 +507,15 @@
                         <gosc>Bayern Leverkusen</gosc>
                         <data_spotkania>2019-06-05</data_spotkania>
                         <typy>
-                            <typ id="40">
+                            <typ>
                                 <nazwa>Wygra gospodarz</nazwa>
                                 <kurs>1.91</kurs>
                             </typ>
-                            <typ id="41">
+                            <typ>
                                 <nazwa>Wygra gość</nazwa>
                                 <kurs>1.92</kurs>
                             </typ>
-                            <typ id="42">
+                            <typ>
                                 <nazwa>Remis</nazwa>
                                 <kurs>3.12</kurs>
                             </typ>
@@ -526,15 +526,15 @@
                         <gosc>Hannover 96</gosc>
                         <data_spotkania>2019-06-05</data_spotkania>
                         <typy>
-                            <typ id="43">
+                            <typ>
                                 <nazwa>Wygra gospodarz</nazwa>
                                 <kurs>1.51</kurs>
                             </typ>
-                            <typ id="44">
+                            <typ>
                                 <nazwa>Wygra gość</nazwa>
                                 <kurs>2.22</kurs>
                             </typ>
-                            <typ id="45">
+                            <typ>
                                 <nazwa>Remis</nazwa>
                                 <kurs>3.12</kurs>
                             </typ>
@@ -547,15 +547,15 @@
                         <gosc>Widzew Lodz</gosc>
                         <data_spotkania>2019-06-05</data_spotkania>
                         <typy>
-                            <typ id="46">
+                            <typ>
                                 <nazwa>Wygra gospodarz</nazwa>
                                 <kurs>1.51</kurs>
                             </typ>
-                            <typ id="47">
+                            <typ>
                                 <nazwa>Wygra gość</nazwa>
                                 <kurs>2.22</kurs>
                             </typ>
-                            <typ id="48">
+                            <typ>
                                 <nazwa>Remis</nazwa>
                                 <kurs>3.12</kurs>
                             </typ>
@@ -566,15 +566,15 @@
                         <gosc>Legia Warszawa</gosc>
                         <data_spotkania>2019-06-05</data_spotkania>
                         <typy>
-                            <typ id="49">
+                            <typ>
                                 <nazwa>Wygra gospodarz</nazwa>
                                 <kurs>1.51</kurs>
                             </typ>
-                            <typ id="50">
+                            <typ>
                                 <nazwa>Wygra gość</nazwa>
                                 <kurs>2.22</kurs>
                             </typ>
-                            <typ id="51">
+                            <typ>
                                 <nazwa>Remis</nazwa>
                                 <kurs>3.12</kurs>
                             </typ>
@@ -585,15 +585,15 @@
                         <gosc>Arka Gdynia</gosc>
                         <data_spotkania>2019-06-05</data_spotkania>
                         <typy>
-                            <typ id="52">
+                            <typ>
                                 <nazwa>Wygra gospodarz</nazwa>
                                 <kurs>1.51</kurs>
                             </typ>
-                            <typ id="53">
+                            <typ>
                                 <nazwa>Wygra gość</nazwa>
                                 <kurs>2.22</kurs>
                             </typ>
-                            <typ id="54">
+                            <typ>
                                 <nazwa>Remis</nazwa>
                                 <kurs>3.12</kurs>
                             </typ>
