@@ -1,0 +1,256 @@
+zaklad_bukmacherski {
+    display: block;
+    background-color: black;
+    color: black;
+    font-weight: bold;
+    font-size: 200%;
+    width: 100%;
+    text-align:center;
+}
+
+imie:before {
+     color: rgb(65, 16, 16);
+     font-size: 120%;
+     content: "Imię: ";
+     font-style: italic;
+}
+
+nazwisko:before {
+     color: rgb(65, 16, 16);
+     font-size: 120%;
+     content: "Nazwisko: ";
+     font-style: italic;
+}
+
+data_urodzenia:before {
+     color: rgb(65, 16, 16);
+     font-size: 120%;
+     content: "Data urodzenia: ";
+     font-style: italic;
+}
+
+pesel:before {
+     color: rgb(65, 16, 16);
+     font-size: 120%;
+     content: "Pesel: ";
+     font-style: italic;
+}
+
+numer_dowodu:before {
+     color: rgb(65, 16, 16);
+     font-size: 120%;
+     content: "Numer dowodu: ";
+     font-style: italic;
+}
+
+staz:before {
+     color: rgb(65, 16, 16);
+     font-size: 120%;
+     content: "Staż pracy: ";
+     font-style: italic;
+}
+
+staz:after {
+     color: black;
+     font-size: 120%;
+     content: " miesięcy";
+     font-style: italic;
+}
+
+wlasciciele:before {
+    color: red;
+    font-size: 150%;
+    content: "WLASCICIELE:";
+    font-style: italic;
+}
+
+wlasciciele {
+    width: 100%;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: white;
+    margin: 5px;
+    font-size: 150%;
+    text-align: center;
+}
+
+wlasciciel {
+    display: block;
+    border: 1px solid;
+}
+wlasciciel:hover {
+    background-color: green;
+}
+
+pracownicy {
+    width: 100%;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: white;
+    margin: 5px;
+    font-size: 150%;
+    text-align: center;
+}
+
+pracownicy:before {
+    color: red;
+    font-size: 150%;
+    content: "PRACOWNICY:";
+    font-style: italic;
+}
+
+pracownik {
+    display: block;
+    border: 1px solid;
+}
+pracownik:hover {
+    background-color: pink;
+}
+
+imie {
+    display: block;
+}
+
+nazwisko {
+    display: block;
+}
+
+data_urodzenia {
+    display: block;
+}
+
+pesel {
+    display: block;
+}
+
+numer_dowodu {
+    display: block;
+}
+
+staz {
+    display: block;
+}
+
+oferty {
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    background-color: white;
+    margin: 5px;
+    font-size: 150%;
+    text-align: center;
+}
+
+oferta:before {
+    width: 33.2%;
+    color: red;
+    font-size: 150%;
+    content: "OFERTA:";
+    font-style: italic;
+}
+
+oferta {
+    width: 33.2%;
+    font-size: 50%;
+    display: block;
+    border: 1px solid;
+}
+
+pilka_nozna {
+    display: block;
+}
+
+liga_angielska:before {
+    width: 33.2%;
+    color: red;
+    font-size: 70%;
+    content: "Liga angielska:";
+    font-style: italic;
+}
+liga_angielska {
+    display: block;
+    border: 1px solid blue;
+    background-color: lightcoral;
+}
+liga_niemiecka:before {
+    width: 33.2%;
+    color: red;
+    font-size: 70%;
+    content: "Liga niemiecka:";
+    font-style: italic;
+}
+liga_niemiecka {
+    display: block;
+    border: 1px solid black;
+    background-color: lightblue;
+}
+liga_polska:before {
+    width: 33.2%;
+    color: red;
+    font-size: 70%;
+    content: "Liga polska:";
+    font-style: italic;
+}
+liga_polska {
+    display: block;
+    border: 1px solid red;
+    background-color: grey;
+}
+spotkanie {
+    display: block;
+    border: 1px solid;
+}
+gospodarz {
+    display: block;
+}
+gospodarz:before {
+     color: rgb(65, 16, 16);
+     content: "Gospodarz: ";
+     font-style: italic;
+}
+gosc {
+    display: block;
+}
+gosc:before {
+     color: rgb(65, 16, 16);
+     content: "Gosc: ";
+     font-style: italic;
+}
+data_spotkania {
+    display: block;
+}
+data_spotkania:before {
+     color: rgb(65, 16, 16);
+     content: "Data spotkania: ";
+     font-style: italic;
+}
+typy {
+    display: inline-block;
+    width: 100%;
+    font-size: 80%;
+    border: 1px solid;
+}
+typy:before {
+    content: "Typy: "
+}
+typ {
+    display: block;
+        border: 1px solid;
+
+}
+kurs {
+    display: block;
+}
+kurs:before {
+     color: rgb(65, 16, 16);
+     content: "Kurs: ";
+     font-style: italic;
+}
+nazwa {
+    display: block;
+}
+nazwa:before {
+     color: rgb(65, 16, 16);
+     content: "Nazwa typu: ";
+     font-style: italic;
+}

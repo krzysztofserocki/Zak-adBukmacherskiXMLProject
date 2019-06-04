@@ -38,10 +38,10 @@
                                         <tbody>
                                             <xsd:for-each select="zaklad_bukmacherski/wlasciciele/wlasciciel">
                                                 <tr>
-                                                    <td style="color: yellow;"><xsd:value-of select="imie" /></td>
-                                                    <td style="color: yellow;"><xsd:value-of select="nazwisko" /></td>
-                                                    <td style="color: yellow;"><xsd:value-of select="data_urodzenia" /></td>
-                                                    <td style="color: yellow;"><xsd:value-of select="pesel" /></td>
+                                                    <td style="color: green;"><xsd:value-of select="imie" /></td>
+                                                    <td style="color: green;"><xsd:value-of select="nazwisko" /></td>
+                                                    <td style="color: green;"><xsd:value-of select="data_urodzenia" /></td>
+                                                    <td style="color: green;"><xsd:value-of select="pesel" /></td>
                                                 </tr>
                                             </xsd:for-each>
                                         </tbody>
