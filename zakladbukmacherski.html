@@ -1,0 +1,150 @@
+<html>
+<head>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous"/>
+    <style>
+                    table {
+                    border: 2px solid black;
+                    border-collapse: collapse;
+                    }
+                    td, th, tr {
+                    border: 1px solid black;
+                    color: blue;
+                    text-align: center;
+                    }
+                    p {
+                    color: green;
+                    font-weight: bold;
+                    }
+                    input {
+                    background-color: pink;
+                    }
+                </style>
+</head>
+<body>
+<script>
+    function add() {
+        const table = document.getElementById("table");
+        const length = (table.rows.length) - 1;
+        const row = table.insertRow(length);
+        row.id = "row" + length;
+        const cell1 = row.insertCell(0);
+        const cell2 = row.insertCell(1);
+        const cell3 = row.insertCell(2);
+        const cell4 = row.insertCell(3);
+        const cell5 = row.insertCell(4);
+        const cell6 = row.insertCell(5);
+        const cell7 = row.insertCell(6);
+        cell1.innerHTML = document.getElementById("newImie").value;
+        cell1.id="nameRow"+length;
+        cell2.innerHTML = document.getElementById("newNazwisko").value;
+        cell2.id="surnameRow"+length;
+        cell3.innerHTML = document.getElementById("newDataurodzenia").value;
+        cell3.id="peselRow"+length;
+        cell4.innerHTML = document.getElementById("newPesel").value;
+        cell4.id="numberRow"+length;
+        cell5.innerHTML = document.getElementById("newNumerdowodu").value;
+        cell5.id="numberRow"+length;
+        cell6.innerHTML = document.getElementById("newStaz").value;
+        cell6.id="numberRow"+length;
+        cell7.innerHTML =
+            "<input type='button' id='saveButton" + length + "' value='Zapisz' class='button' onclick='save(" + length + ")' style='display:none'>" +
+            "<input type='button' value='Usuń' class='usun, button' onclick='deleteRow(" + length + ")'>";
+    }
+
+    function sort(column) {
+        let table, rows, switching, i, x, y, shouldSwitch;
+        table = document.getElementById("table");
+        switching = true;
+        while (switching) {
+            switching = false;
+            rows = table.rows;
+            for (i = 1; i < (rows.length - 2); i++) {
+                shouldSwitch = false;
+                x = rows[i].getElementsByTagName("TD")[column];
+                y = rows[i + 1].getElementsByTagName("TD")[column];
+                if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                    shouldSwitch = true;
+                    break;
+                }
+            }
+            if (shouldSwitch) {
+                rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                switching = true;
+            }
+        }
+    }
+
+    function deleteRow(no) {
+        document.getElementById("row" + no).innerHTML = "";
+    }
+</script>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 p-0">
+            <div class="jumbotron min-vh-100 text-center d-flex flex-column">
+                <div id="pracownicy">
+                    <p>PRACOWNICY:</p>
+                    <table id="table" class="table table-hover table-striped">
+                        <thead class="thead-dark">
+                        <tr>
+                            <th onclick="sort(0)">IMIE</th>
+                            <th onclick="sort(1)">NAZWISKO</th>
+                            <th onclick="sort(2)">DATA URODZENIA</th>
+                            <th onclick="sort(3)">PESEL</th>
+                            <th onclick="sort(4)">NUMER DOWODU</th>
+                            <th onclick="sort(5)">STAZ</th>
+                            <th>AKCJE</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr id="row1">
+                            <td id="imie1"         >Sebastian</td>
+                            <td id="nazwisko1"     >Dworski</td>
+                            <td id="dataurodzenia1">1989-06-13</td>
+                            <td id="pesel1"        >89061312341</td>
+                            <td id="numerdowodu1"  >CBA123456</td>
+                            <td id="staz1"         >31</td>
+                            <th><input class="button" id="saveButton1" onclick="save(1)" style="display: none" type="button" value="Zapisz">
+                                <input class="button" onclick="deleteRow(1)" type="button" value="Usuń"></th>
+                        </tr>
+                        <tr id="row2">
+                            <td id="imie2"          >Marcin</td>
+                            <td id="nazwisko2"      >Michałek</td>
+                            <td id="dataurodzenia2" >1992-01-04</td>
+                            <td id="pesel2"         >92010451232</td>
+                            <td id="numerdowodu2"   >CAA224156</td>
+                            <td id="staz2"          >41</td>
+                            <th><input class="button" id="saveButton2" onclick="save(2)" style="display: none" type="button" value="Zapisz">
+                                <input class="button" onclick="deleteRow(2)" type="button" value="Usuń"></th>
+                        </tr>
+                        <tr id="row3">
+                            <td id="imie3"              >Jan</td>
+                            <td id="nazwisko3"          >Tomeczek</td>
+                            <td id="dataurodzenia3"     >1981-12-23</td>
+                            <td id="pesel3"             >81128313212</td>
+                            <td id="numerdowodu3"       >UCA612321</td>
+                            <td id="staz3"              >62</td>
+                            <th><input class="button" id="saveButton3" onclick="save(3)" style="display: none" type="button" value="Zapisz">
+                                <input class="button" onclick="deleteRow(3)" type="button" value="Usuń"></th>
+                        </tr>
+                        <tr id="addRow">
+                            <td><label for="newImie"></label><input id="newImie" type="text"></td>
+                            <td><label for="newNazwisko"></label><input id="newNazwisko" type="text"></td>
+                            <td><label for="newDataurodzenia"></label><input id="newDataurodzenia" type="text"></td>
+                            <td><label for="newPesel"></label><input id="newPesel" type="text"></td>
+                            <td><label for="newNumerdowodu"></label><input id="newNumerdowodu" type="text"></td>
+                            <td><label for="newStaz"></label><input id="newStaz" type="text"></td>
+                            <td><input class="add, button" onclick="add();" type="button" value="Dodaj"></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
